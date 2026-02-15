@@ -13,7 +13,7 @@ The model was trained on the **Kaggle Dogs vs Cats** dataset with the following 
 - **Image Size**: Resized to 224×224 pixels (ResNet50 standard input)
 - **Source**: [Kaggle Dogs vs Cats Competition](https://www.kaggle.com/c/dogs-vs-cats)
 - **Data Split**: Random 80/20 train-validation split
-- ![Sample Pics](images/sample_datasetpng)
+- ![Sample Pics](images/Sample_dataset.png)
 *Example of cats and dogs from dataset*
 
 ## Model Architecture
@@ -199,8 +199,8 @@ A confusion matrix visualization is generated showing the model's performance ac
 - **True Negatives (Cats)**: 2,437 correctly classified
 - **False Positives (Cats as Dogs)**: 27 misclassified
 - **False Negatives (Dogs as Cats)**: 27 misclassified
-- ![Confusion Matrix](images/confusion_matrix.png)
-*Classification performance across all 10 digits*
+- ![Confusion Matrix](images/confusion_matirx.png)
+*Classification performance*
 
 ### Sample Predictions
 The notebook displays 16 sample predictions with confidence scores, color-coded:
